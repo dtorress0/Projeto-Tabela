@@ -1,0 +1,169 @@
+/* CSS para o estilo da tabela */
+table {
+    width: 80%; /* Reduzindo um pouco a largura da tabela */
+    margin: auto; /* Centralizando a tabela horizontalmente */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: burlywood;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* CSS para o estilo do cabeçalho */
+header {
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center; /* Centralizando o texto do cabeçalho */
+}
+
+.logo img {
+    max-width: 100%; /* Garantindo que a imagem do logotipo não ultrapasse seu contêiner */
+    height: auto; /* Permitindo que a altura da imagem seja ajustada automaticamente */
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 2.5%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.info-invalida{
+    background-color: rgb(255,0,0);
+}
+
+
+/*formulario*/
+.box {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    margin-top: 0;
+  }
+  
+  .formulario{
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .info-invalida{
+    background-color: red;
+  }
+
+
+
+  /* CSS para o estilo da tabela */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f0ad4e;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Estilo para o botão de adicionar */
+#botao {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#botao:hover {
+  background-color: #4cae4c;
+}
+
+/* Estilo para mensagens de erro */
+.info-invalida {
+  background-color: red;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #f0ad4e;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
+  text-align: center;
+  padding-bottom: 2.5%;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: chocolate;
+}
